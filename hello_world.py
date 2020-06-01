@@ -4,3 +4,4 @@ print(f"The author's name is {author['name']}.\nHis favorite color is {author['c
 print("The current colors are:")
 for color in colors:
 	print(color)
+print("Hello from github!")
