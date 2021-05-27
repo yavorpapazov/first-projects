@@ -1,0 +1,68 @@
+body {
+	background-color: whitesmoke;
+	color: midnightblue;
+}
+ul {
+	list-style-type: none;	
+}
+li {
+	display: inline-block;
+	margin: 50px;
+	font-size: 20px;
+	color: white;
+}
+li:hover {
+	text-decoration: underline;
+}
+.divNav {
+	background-color: darkblue;
+	margin: 20px;
+	padding-left: 100px;
+	border-radius: 5px;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 100px;
+}
+.divImage {
+	margin: 50px;
+	width: 600px;
+	height: 400px;
+	padding: 30px;
+	background-image: url("food.jpg");
+	background-size: cover;
+	grid-column: 1;
+}
+.divHome {
+	margin: 100px;
+}
+.divData {
+	margin: 50px;
+	font-size: 20px;
+	grid-column: 2;
+}
+.btn {
+	margin: 20px;
+	padding: 5px;
+	font-size: 15px;
+	display: inline-block;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	background-color: gainsboro;
+	transition-duration: 0.4s;
+}
+.btn:hover {
+	background-color: silver;
+}
+.linkHome {
+	text-decoration: none;
+	margin-left: 10px;
+}
+.linkHome:hover {
+	text-decoration: underline;
+}
+.linkHome:visited {
+	color: blue;
+}
