@@ -1,0 +1,127 @@
+body {
+	background-color: whitesmoke;
+	color: midnightblue;
+}
+h1 {
+	margin-left: 100px;
+}
+.navArea {
+	background-color: wheat;
+	padding: 20px;
+}
+.h2Header {
+	display: inline;
+	margin: 100px;
+}
+.divHeader {
+	display: inline;
+	margin: 100px;
+	font-size: 30px;
+}
+.link {
+	text-decoration: none;
+	color: midnightblue;
+}
+.link:active {
+	color: white;
+}
+.defaultImage {
+	background-image: url('./images/main.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.photosImage {
+	background-image: url('./images/buildingsnature5.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner {
+	width: 600px;
+	background: black;
+	border-radius: 5px;
+	opacity: 0.6;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.btn {
+	display: inline-block;
+	border: solid 1px whitesmoke;
+	border-radius: 5px;
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+}
+.btn:active {
+	background: whitesmoke;
+}
+.photosLinkContainer {
+	position: relative;
+}
+.singlePhotoLinkContainer {
+	position: relative;
+	width: 450px;
+}
+.photosLink {
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	border: solid 1px whitesmoke;
+	border-radius: 5px;
+	background-color: black;
+	opacity: 0.6;
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 10px;
+}
+.singlePhotoLink {
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	border: solid 1px whitesmoke;
+	border-radius: 5px;
+	background-color: black;
+	opacity: 0.6;
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 10px;
+}
+.photosLink:active {
+	background: whitesmoke;
+}
+.singlePhotoLink:active {
+	background: whitesmoke;
+}
+.topPhotosH1 {
+	border: 5px midnightblue;
+	border-style: none none solid none;
+	width: 200px;
+	padding: 30px;
+	margin: auto;
+	text-align: center;
+}
+.topPhotos {
+	margin: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.singlePhotoImage {
+	margin: 40px;
+}
+.formStyle {
+	text-align: center;
+}
