@@ -1,0 +1,98 @@
+body {
+	background-color: whitesmoke;
+	color: midnightblue;
+}
+.h1Header {
+	background-color: wheat;
+}
+h1 {
+	margin: 30px 100px;
+	padding-left: 20px;
+}
+p {
+	padding-right: 50px;
+}
+.searchForm {
+	margin-left: 100px;
+}
+.formInput {
+	border: 2px solid midnightblue;
+	border-radius: 5px;
+	padding: 10px;
+}
+.submitBtn {
+	margin: 10px;
+	border: 2px solid midnightblue;
+	border-radius: 5px;
+	background-color: midnightblue;
+	color: whitesmoke;
+	padding: 10px;
+}
+.submitBtn:hover {
+	cursor: pointer;
+	background-color: whitesmoke;
+	color: midnightblue;
+}
+.submitBtn:disabled {
+	cursor: default;
+	margin: 10px;
+	border: 2px solid midnightblue;
+	border-radius: 5px;
+	background-color: midnightblue;
+	color: whitesmoke;
+	padding: 10px;
+	opacity: 0.5;
+}
+.clearBtn {
+	margin: 10px 100px;
+	border: 2px solid midnightblue;
+	border-radius: 5px;
+	background-color: midnightblue;
+	color: whitesmoke;
+	padding: 10px;
+}
+.clearBtn:hover {
+	cursor: pointer;
+	background-color: whitesmoke;
+	color: midnightblue;
+}
+.clearBtn:disabled {
+	cursor: default;
+	margin: 30px 100px;
+	border: 2px solid midnightblue;
+	border-radius: 5px;
+	background-color: midnightblue;
+	color: whitesmoke;
+	padding: 10px;
+	opacity: 0.5;
+}
+.divTitle {
+	width: 250px;
+}
+.movieImg {
+	height: 300px;
+}
+.divContainer {
+	margin: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.divItem {
+	flex: 1;
+}
+.mainDiv {
+	margin: 50px;
+}
+.returnHome {
+	border: 2px solid midnightblue;
+	border-radius: 5px;
+	background-color: midnightblue;
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 120px;
+}
+.returnHome:active {
+	background-color: whitesmoke;
+	color: midnightblue;
+}
