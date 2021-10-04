@@ -1,0 +1,58 @@
+html {
+	background-color: lightgray;
+}
+h1 {
+	color: maroon;
+	font-family: candara;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 80%;
+	margin: 20px auto;
+	max-width: 900px;
+}
+header {
+	background: lightcoral;
+	padding: 10px;
+}
+.image {
+	border: 10px solid orange;
+	width: 40%;
+	margin: 20px auto;
+}
+img {
+	width: 100%;
+	display: block;
+}
+section {
+	display: flex;
+	margin: 20px 0;
+	justify-content: space-between;
+}
+.col-black {
+	background: black;
+	color: whitesmoke;
+	padding: 5px;
+}
+.col-one {
+	width: 25%;
+}
+.col-two {
+	width: 45%;
+}
+.col-three {
+	width: 70%;
+}
+@media (max-width: 650px) {
+	section {
+		flex-direction: column;
+	}
+	.col {
+		margin: 0 auto;
+		width: 100%;
+	}
+}
