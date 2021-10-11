@@ -1,15 +1,17 @@
 # PROJECTS
 
-Resume - useState - https://yavorpapazov.netlify.app/
+MyResume - useState - https://yavorpapazov.netlify.app/
 
-Movies DB - useState, useEffect, React Router, Dynamic Routes, React Children, Context API - https://mymoviesdatabase.netlify.app/
+MyMoviesDataBase - useState, useEffect, React Router, Dynamic Routes, React Children, Context API - https://mymoviesdatabase.netlify.app/
 
-World Photos - useState, useEffect, React Router, Dynamic Routes, React Children, Context API - https://worldphotos.netlify.app/
+MyTravelMoments - React Router, Responsive Web Design - https://mytravelmoments.netlify.app/
 
-My Energy Bar - useState, useEffect, React Router, Context API, custom Hooks - https://myenergybar.netlify.app/
+WorldPhotos - useState, useEffect, React Router, Dynamic Routes, React Children, Context API - https://worldphotos.netlify.app/
 
-My Travel Photos - useState, useEffect - https://mytravelphotos.netlify.app/
+MyEnergyBar - useState, useEffect, React Router, Context API, custom Hooks - https://myenergybar.netlify.app/
 
-Food Information - React Router, useState, useEffect - https://fooditemsinfo.netlify.app/
+MyTravelPhotos - useState, useEffect - https://mytravelphotos.netlify.app/
 
-Stock Price Info - useState - https://stockpriceinfo.netlify.app/
+FoodInformation - React Router, useState, useEffect - https://fooditemsinfo.netlify.app/
+
+StockPriceInfo - useState - https://stockpriceinfo.netlify.app/
