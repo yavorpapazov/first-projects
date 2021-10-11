@@ -1,0 +1,163 @@
+body {
+	background-color: lightgray;
+	color: maroon;
+	font-family: candara;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	background: lightblue;
+	padding: 10px;
+	width: 85%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	align-items: center;
+}
+.site-title {
+	text-align: center;
+}
+.subtitle {
+	font-weight: bold;
+}
+nav ul {
+	width: 400px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+}
+nav li {
+	margin: 10px;
+}
+.nav-link {
+	text-decoration: none;
+	font-size: 20px;
+	color: red;
+}
+.nav-link:hover {
+	color: black;
+	font-weight: bold;
+}
+.current-page {
+	border-bottom: 2px solid red;
+}
+.current-page:hover {
+	color: red;
+	font-weight: normal;
+}
+.container {
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+	flex-direction: column;
+}
+.image-div-1 {
+	margin-bottom: 20px;
+}
+.image-div-1 img {
+	width: 100%;
+	display: block;
+}
+.image-div-2 img {
+	width: 100%;
+	display: block;
+}
+.container-x {
+	display: flex;
+	margin: 20px 0 20px;
+	flex-direction: column;
+	border-top: 5px solid maroon;
+	padding-top: 50px;
+}
+.image-div-x {
+	margin-bottom: 20px;
+}
+.image-div-x img {
+	width: 100%;
+	display: block;
+}
+.container-3 {
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.image-div-3 {
+	width: 100%;
+	margin: 20px auto;
+}
+.image-div-3 img {
+	width: 100%;
+	display: block;
+}
+.return-home {
+	display: inline-block;
+	border: 2px solid maroon;
+	border-radius: 5px;
+	background-color: maroon;
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+}
+.return-home:active {
+	background-color: whitesmoke;
+	color: maroon;
+}
+@media (min-width: 1000px) {
+	header {
+		flex-direction: row;
+	}
+	.site-title {
+		min-width: 400px;
+	}
+	nav ul {
+		flex-direction: row;
+	}
+	.container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.container-1 {
+		width: 75%;
+	}
+	.image-div-1 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.container-2 {
+		width: 20%;
+	}
+	.container-x {
+		flex-direction: row;
+		margin: 20px 20px 20px 0;
+		border: none;
+	}
+	.image-div-x {
+		width: 40%;
+		margin-right: 20px;
+	}
+	.paragraph-div {
+		width: 60%;
+	}
+	.container-3 {
+		border: 5px solid maroon;
+		width: 85%;
+		margin: 0 auto;
+		text-align: center;
+		padding: 20px 0 20px;
+		margin-bottom: 20px;
+	}
+	.image-div-3 {
+		width: 60%;
+		margin: 20px auto;
+	}
+}
