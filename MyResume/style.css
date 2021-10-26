@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: whitesmoke;
+	color: midnightblue;
+}
+.section-title {
+    background-color: lightblue;
+	text-align: center;
+}
+.section-container {
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section-item {
+	width: 100%;
+}
+.section-item-btn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.btn {
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
+	display: block;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	background-color: gainsboro;
+	transition-duration: 0.4s;
+}
+.btnActive {
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
+	display: block;
+	outline: none;
+	border-radius: 10px;
+	background-color: gainsboro;
+	transition-duration: 0.4s;
+}
+.btn:hover {
+	background-color: silver;
+}
+.section-ul {
+	margin: 20px;
+}
+.photo-main-div {
+	width: 250px;
+	margin: 10px auto;
+}
+.photo-main-div img {
+	width: 100%;
+	display: block;
+	border-radius: 10px;
+}
+.link-div {
+	display: flex;
+	justify-content: center;
+	margin: 10px auto;
+}
+a:link {
+	color: midnightblue;
+	text-decoration: none;
+}
+a:visited {
+	color: midnightblue;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+	text-decoration: none;
+}
+.photo-hobbies-div {
+	max-width: 450px;
+	margin: 30px auto;
+}
+.photo-hobbies-div img {
+	width: 100%;
+	display: block;
+	border-radius: 10px;
+}
+@media (min-width: 800px) {
+	.section-container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.section-item-one {
+		width: 25%;
+	}
+	.section-item-two {
+		width: 65%;
+		margin: 20px 0;
+	}
+}
