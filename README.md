@@ -1,6 +1,6 @@
 # PROJECTS
 
-MyResume - React with Typescript, useState - https://yavorpapazov.netlify.app/
+MyResume - React with Typescript, useState, Responsive Web Design - https://yavorpapazov.netlify.app/
 
 MyMoviesDataBase - useState, useEffect, React Router, Dynamic Routes, React Children, Context API - https://mymoviesdatabase.netlify.app/
 
