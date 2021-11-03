@@ -10,8 +10,6 @@ MyTravelMoments - React Router, Responsive Web Design - https://mytravelmoments.
 
 MyEnergyBar - useState, useEffect, React Router, Context API, custom Hooks - https://myenergybar.netlify.app/
 
-MyTravelPhotos - useState, useEffect - https://mytravelphotos.netlify.app/
-
 FoodInformation - React Router, useState, useEffect - https://fooditemsinfo.netlify.app/
 
 StockPriceInfo - useState - https://stockpriceinfo.netlify.app/
