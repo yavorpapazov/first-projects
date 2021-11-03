@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: whitesmoke;
+	color: midnightblue;
+	padding: 20px 0;
+}
+.nav-area {
+	background-color: wheat;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.nav-area-div {
+	text-align: center;
+}
+.nav-area-link {
+	display: inline-block;
+	text-decoration: none;
+	color: midnightblue;
+}
+.nav-area-link:active {
+	color: white;
+}
+.home-image {
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+}
+.banner {
+	width: 100%;
+	height: 100%;
+	background: black;
+	border-radius: 5px;
+	opacity: 0.6;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+}
+.btn {
+	display: inline-block;
+	border: solid 1px whitesmoke;
+	border-radius: 5px;
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 20px;
+}
+.btn:active {
+	background: whitesmoke;
+	color: black;
+}
+.photos-div {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+.container {
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-auto-rows: auto;
+}
+.photos-link-container {
+	position: relative;
+}
+.photos-link-container img {
+	display: block;
+	width: 100%;
+}
+.photos-link {
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	border: solid 1px whitesmoke;
+	border-radius: 5px;
+	background-color: black;
+	opacity: 0.6;
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 10px;
+}
+.photos-link:active {
+	background: whitesmoke;
+	color: black;
+}
+.single-photo-photos-div {
+	width: 90%;
+	margin: 0 auto;
+}
+.single-photo-h3 {
+	margin: 10px 0;
+}
+.single-photo-div img {
+	display: block;
+	width: 100%;
+}
+.add-margin {
+	margin: 20px;
+}
+.photosfilter-h3 {
+	margin-bottom: 10px;
+}
+@media (min-width: 1000px) {
+	.nav-area {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.home-image {
+		background-image: url('./images/main.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 25vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.banner {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		width: 50%;
+		height: 60%;
+		margin-top: 0;
+	}
+	.single-photo-photos-div {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 30px;
+	}
+	.single-photo-div {
+		width: 80%;
+	}
+}
