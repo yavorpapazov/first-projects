@@ -12,4 +12,4 @@ MyEnergyBar - useState, useEffect, React Router, Context API, custom Hooks - htt
 
 FoodInformation - React Router, useState, useEffect - https://fooditemsinfo.netlify.app/
 
-StockPriceInfo - useState - https://stockpriceinfo.netlify.app/
+StockPriceInfo - useState, Material UI, Styled Components - https://stockpriceinfo.netlify.app/
