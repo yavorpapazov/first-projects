@@ -1,0 +1,27 @@
+.singleitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  color:  #38015c;
+  background-color: lightgray;
+}
+.btn {
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 0;
+  color:  #38015c;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #38015c;
+  color: whitesmoke;
+}
+.btn:active {
+  background-color: whitesmoke;
+  color: #38015c;
+}
